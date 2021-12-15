@@ -1,0 +1,47 @@
+.slider2 {
+    animation: flash1 3s linear infinite;
+    width: 700px;
+    overflow: hidden;
+    margin: auto auto;
+    margin-top: 235px;
+    border-top: outset 5px;
+    border-right: outset 5px;
+    border-left: outset 5px;
+    border-bottom: outset 5px;
+    background-color: black;
+}
+
+.slides2 {
+    width: calc(700px * 4);
+    animation: glisse2 55s infinite;
+}
+
+.slide2 {
+    float: left;
+}
+
+@keyframes glisse2{
+    0%{
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-700px);
+    }
+    50%{
+        transform: translateX(-1400px);
+    }
+    75%{
+        transform: translateX(-2100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+.select_atout{
+    animation: flash 3s linear infinite;
+    font-size: 71px;
+    min-height: 80px;
+    margin-left: 36%;
+}

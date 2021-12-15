@@ -1,0 +1,63 @@
+.logo{
+
+    border-radius: 100%;
+    margin-left: 25%;
+    animation: logo 2s infinite;
+}
+
+@keyframes logo {
+    0% {
+        background-color: #fff900;
+        box-shadow: 0 0 700px #fff900;
+
+    }
+    90% {
+        box-shadow: 0 0 0px #fff900;
+    }
+    100% {
+        background-color: none;
+    }
+}
+
+.nb{
+    font-size: 70px;
+    vertical-align: 50%;
+    margin-left: 10%;
+    margin-top: 10px;
+    animation: nb 5s infinite;
+}
+
+@keyframes nb {
+    0% {
+        color: #fff900;
+        text-shadow: 0 0 100px #3913c4;
+
+    }
+    90% {
+        color: black;
+        text-shadow: 0 0 0px;
+    }
+    100% {
+        color: #fff900;
+        text-shadow: 0 0 100px #3913c4;
+    }
+}
+
+.logo2{
+    animation: logo 2s infinite;
+    margin-left: 25%;
+    margin-top: 70px;
+    border-radius: 10px;
+    border-top:solid 5px ;
+    border-right:solid 5px ;
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+}
+
+.nb2{
+    font-size: 50px;
+    vertical-align: 50%;
+    margin-left: 10%;
+    margin-top: 10px;
+    animation: nb 5s infinite;
+}
